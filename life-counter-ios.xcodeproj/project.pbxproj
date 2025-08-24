@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BC5D3E892E5BA0AB00F03E55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC5D3E702E5BA0AA00F03E55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC5D3E772E5BA0AA00F03E55;
+			remoteInfo = "life-counter-ios";
+		};
+		BC5D3E932E5BA0AB00F03E55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC5D3E702E5BA0AA00F03E55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC5D3E772E5BA0AA00F03E55;
+			remoteInfo = "life-counter-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC5D3E782E5BA0AA00F03E55 /* life-counter-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "life-counter-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5D3E882E5BA0AB00F03E55 /* life-counter-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "life-counter-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5D3E922E5BA0AB00F03E55 /* life-counter-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "life-counter-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BC5D3E7A2E5BA0AA00F03E55 /* life-counter-ios */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "life-counter-ios";
+			sourceTree = "<group>";
+		};
+		BC5D3E8B2E5BA0AB00F03E55 /* life-counter-iosTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "life-counter-iosTests";
+			sourceTree = "<group>";
+		};
+		BC5D3E952E5BA0AB00F03E55 /* life-counter-iosUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "life-counter-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC5D3E752E5BA0AA00F03E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5D3E852E5BA0AB00F03E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5D3E8F2E5BA0AB00F03E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC5D3E6F2E5BA0AA00F03E55 = {
+			isa = PBXGroup;
+			children = (
+				BC5D3E7A2E5BA0AA00F03E55 /* life-counter-ios */,
+				BC5D3E8B2E5BA0AB00F03E55 /* life-counter-iosTests */,
+				BC5D3E952E5BA0AB00F03E55 /* life-counter-iosUITests */,
+				BC5D3E792E5BA0AA00F03E55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC5D3E792E5BA0AA00F03E55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC5D3E782E5BA0AA00F03E55 /* life-counter-ios.app */,
+				BC5D3E882E5BA0AB00F03E55 /* life-counter-iosTests.xctest */,
+				BC5D3E922E5BA0AB00F03E55 /* life-counter-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC5D3E772E5BA0AA00F03E55 /* life-counter-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC5D3E9C2E5BA0AB00F03E55 /* Build configuration list for PBXNativeTarget "life-counter-ios" */;
+			buildPhases = (
+				BC5D3E742E5BA0AA00F03E55 /* Sources */,
+				BC5D3E752E5BA0AA00F03E55 /* Frameworks */,
+				BC5D3E762E5BA0AA00F03E55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BC5D3E7A2E5BA0AA00F03E55 /* life-counter-ios */,
+			);
+			name = "life-counter-ios";
+			packageProductDependencies = (
+			);
+			productName = "life-counter-ios";
+			productReference = BC5D3E782E5BA0AA00F03E55 /* life-counter-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC5D3E872E5BA0AB00F03E55 /* life-counter-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC5D3E9F2E5BA0AB00F03E55 /* Build configuration list for PBXNativeTarget "life-counter-iosTests" */;
+			buildPhases = (
+				BC5D3E842E5BA0AB00F03E55 /* Sources */,
+				BC5D3E852E5BA0AB00F03E55 /* Frameworks */,
+				BC5D3E862E5BA0AB00F03E55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC5D3E8A2E5BA0AB00F03E55 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BC5D3E8B2E5BA0AB00F03E55 /* life-counter-iosTests */,
+			);
+			name = "life-counter-iosTests";
+			packageProductDependencies = (
+			);
+			productName = "life-counter-iosTests";
+			productReference = BC5D3E882E5BA0AB00F03E55 /* life-counter-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC5D3E912E5BA0AB00F03E55 /* life-counter-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC5D3EA22E5BA0AB00F03E55 /* Build configuration list for PBXNativeTarget "life-counter-iosUITests" */;
+			buildPhases = (
+				BC5D3E8E2E5BA0AB00F03E55 /* Sources */,
+				BC5D3E8F2E5BA0AB00F03E55 /* Frameworks */,
+				BC5D3E902E5BA0AB00F03E55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC5D3E942E5BA0AB00F03E55 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BC5D3E952E5BA0AB00F03E55 /* life-counter-iosUITests */,
+			);
+			name = "life-counter-iosUITests";
+			packageProductDependencies = (
+			);
+			productName = "life-counter-iosUITests";
+			productReference = BC5D3E922E5BA0AB00F03E55 /* life-counter-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC5D3E702E5BA0AA00F03E55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					BC5D3E772E5BA0AA00F03E55 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BC5D3E872E5BA0AB00F03E55 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BC5D3E772E5BA0AA00F03E55;
+					};
+					BC5D3E912E5BA0AB00F03E55 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BC5D3E772E5BA0AA00F03E55;
+					};
+				};
+			};
+			buildConfigurationList = BC5D3E732E5BA0AA00F03E55 /* Build configuration list for PBXProject "life-counter-ios" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC5D3E6F2E5BA0AA00F03E55;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BC5D3E792E5BA0AA00F03E55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC5D3E772E5BA0AA00F03E55 /* life-counter-ios */,
+				BC5D3E872E5BA0AB00F03E55 /* life-counter-iosTests */,
+				BC5D3E912E5BA0AB00F03E55 /* life-counter-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC5D3E762E5BA0AA00F03E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5D3E862E5BA0AB00F03E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5D3E902E5BA0AB00F03E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC5D3E742E5BA0AA00F03E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5D3E842E5BA0AB00F03E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5D3E8E2E5BA0AB00F03E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC5D3E8A2E5BA0AB00F03E55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC5D3E772E5BA0AA00F03E55 /* life-counter-ios */;
+			targetProxy = BC5D3E892E5BA0AB00F03E55 /* PBXContainerItemProxy */;
+		};
+		BC5D3E942E5BA0AB00F03E55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC5D3E772E5BA0AA00F03E55 /* life-counter-ios */;
+			targetProxy = BC5D3E932E5BA0AB00F03E55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC5D3E9A2E5BA0AB00F03E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC5D3E9B2E5BA0AB00F03E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC5D3E9D2E5BA0AB00F03E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"life-counter-ios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.aint.life-counter-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC5D3E9E2E5BA0AB00F03E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"life-counter-ios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.aint.life-counter-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC5D3EA02E5BA0AB00F03E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.aint.life-counter-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/life-counter-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/life-counter-ios";
+			};
+			name = Debug;
+		};
+		BC5D3EA12E5BA0AB00F03E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.aint.life-counter-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/life-counter-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/life-counter-ios";
+			};
+			name = Release;
+		};
+		BC5D3EA32E5BA0AB00F03E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.aint.life-counter-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "life-counter-ios";
+			};
+			name = Debug;
+		};
+		BC5D3EA42E5BA0AB00F03E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.aint.life-counter-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "life-counter-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC5D3E732E5BA0AA00F03E55 /* Build configuration list for PBXProject "life-counter-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5D3E9A2E5BA0AB00F03E55 /* Debug */,
+				BC5D3E9B2E5BA0AB00F03E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC5D3E9C2E5BA0AB00F03E55 /* Build configuration list for PBXNativeTarget "life-counter-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5D3E9D2E5BA0AB00F03E55 /* Debug */,
+				BC5D3E9E2E5BA0AB00F03E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC5D3E9F2E5BA0AB00F03E55 /* Build configuration list for PBXNativeTarget "life-counter-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5D3EA02E5BA0AB00F03E55 /* Debug */,
+				BC5D3EA12E5BA0AB00F03E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC5D3EA22E5BA0AB00F03E55 /* Build configuration list for PBXNativeTarget "life-counter-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5D3EA32E5BA0AB00F03E55 /* Debug */,
+				BC5D3EA42E5BA0AB00F03E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC5D3E702E5BA0AA00F03E55 /* Project object */;
+}
