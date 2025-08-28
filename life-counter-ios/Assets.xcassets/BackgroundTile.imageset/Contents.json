@@ -1,6 +1,7 @@
 {
-  "colors" : [
+  "images" : [
     {
+      "filename" : "background_tile 2.png",
       "idiom" : "universal"
     }
   ],
