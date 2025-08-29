@@ -29,11 +29,14 @@ class LifeTotalModel: ObservableObject {
             playerUpDigits = Self.digitsFromNumber(playerUp)
         }
     }
+
     private var playerDown: Int = 20 {
         didSet {
             playerDownDigits = Self.digitsFromNumber(playerDown)
         }
     }
+
+    private let haptics: Haptics
 
     @Published private(set) var playerUpDigits: [Digit]
     @Published private(set) var playerDownDigits: [Digit]
@@ -44,13 +47,16 @@ class LifeTotalModel: ObservableObject {
     var timer: Timer?
     var resetTimer: Timer?
 
+    // MARK: - Feedback
 
+    var onResetTriggered: (() -> ())?
 
     // MARK: Init.
 
     init() {
         playerUpDigits = Self.digitsFromNumber(playerUp)
         playerDownDigits = Self.digitsFromNumber(playerDown)
+        haptics = Haptics()
     }
 
     private static func digitsFromNumber(_ number: Int) -> [Digit] {
@@ -72,17 +78,17 @@ class LifeTotalModel: ObservableObject {
 
     func onEventStarted(control: ControlType, event: EventType) {
         // Trigger immediately on first touch.
-        tick(control: control, event: event)
+        tick(control: control, event: event, continuous: false)
 
         // Start triggering repeatedly after a delay.
         self.startTimer = Timer.scheduledTimer(withTimeInterval: 0.5, repeats: false) { [weak self] _ in
-            self?.tick(control: control, event: event)
+            self?.tick(control: control, event: event, continuous: true)
 
             self?.timer = Timer.scheduledTimer(
                 withTimeInterval: 0.1,
                 repeats: true,
                 block: { [weak self] _ in
-                    self?.tick(control: control, event: event)
+                    self?.tick(control: control, event: event, continuous: true)
                 }
             )
         }
@@ -93,6 +99,8 @@ class LifeTotalModel: ObservableObject {
         self.resetTimer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: false) { [weak self] _ in
             self?.playerDown = 20
             self?.playerUp = 20
+            
+            self?.haptics.play(strength: .strong)
         }
     }
 
@@ -107,7 +115,7 @@ class LifeTotalModel: ObservableObject {
 
     // MARK: Helpers.
 
-    private func tick(control: ControlType, event: EventType) {
+    private func tick(control: ControlType, event: EventType, continuous: Bool) {
         switch (control, event) {
         case (.down, .minus):
             playerDown = max(playerDown - 1, 0)
@@ -118,5 +126,7 @@ class LifeTotalModel: ObservableObject {
         case (.up, .plus):
             playerUp = min(playerUp + 1, 999)
         }
+
+        haptics.play(strength: continuous ? .weak : .middle)
     }
 }
